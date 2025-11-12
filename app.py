@@ -118,7 +118,7 @@ class AutoSubApp(QWidget):
         h2.addWidget(self.lang_edit)
         h2.addWidget(QLabel("Whisper model:"))
         self.model_combo = QComboBox()
-        self.model_combo.addItems(["small", "medium", "base"])  # pick defaults; user may change
+        self.model_combo.addItems(["small", "medium", "base" , "large","large-v2","large-v3"])  # pick defaults; user may change
         h2.addWidget(self.model_combo)
         layout.addLayout(h2)
 
