@@ -1,0 +1,7 @@
+moviepy==1.0.3
+openai_whisper==20250625
+PySide6==6.6.0
+PySide6==6.10.0
+PySide6_Addons==6.6.0
+PySide6_Essentials==6.6.0
+whisper==1.1.10
